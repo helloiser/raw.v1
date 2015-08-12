@@ -17,7 +17,9 @@ end
 end
 @RAW_main[3] = gets.chomp
 if @RAW_main[3] === @RAW_main[2] || @confirm === true
-print "Passcode correct! "
+print "Awesome! Hang tight quickly while we set you up..."
+5.times { puts " " }
+print "All sorted!"
 else
 incorrect_pass
 end
