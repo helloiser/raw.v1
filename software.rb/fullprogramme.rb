@@ -1,5 +1,5 @@
 @RAW_main = ["?"]
-print "Welcome to raw.v2. Please type your first name >"
+print "Welcome to raw.v1 Please type your first name >"
 @RAW_main[0] = gets.chomp
 print "Hello, " + @RAW_main[0] + ". Please add a descriptive word about you."
 @RAW_main[1] = gets.chomp
